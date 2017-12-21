@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Shopping_Cart.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+     <body  style= "background-color:gainsboro">
+
+    <form id="form1" runat="server">
+    <div>
+                      <header>
+                   <h1 align="center" style="color:blue">Shopping Cart</h1>
+              </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    
+        </asp:ContentPlaceHolder>
+            <footer>
+               <center> <asp:Label ID="Label1" runat="server" Text="All &copy Resevered"></asp:Label></center>
+            </footer>
+    </div>
+    </form>
+</body>
+</html>
